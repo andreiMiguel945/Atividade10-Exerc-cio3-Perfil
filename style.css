@@ -1,0 +1,88 @@
+main{
+    position: relative;
+    background-color: #0d057a;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 20% auto;
+}
+header{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+.profile-picture{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 0 auto;
+}
+.profile-picture:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-color: #ff0000;
+}
+.online{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h2{
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.dados{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.publicacoes:hover{
+    color: #ff0000;
+    font-size: 18px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+.amigos:hover{
+    color: #ff0000;
+    font-size: 18px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+
+.online{
+    width: 30px;
+    height: 30px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+

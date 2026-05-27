@@ -25,11 +25,6 @@ header{
     transition: transform 0.3s ease;
     border-color: #ff0000;
 }
-.online{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
 h2{
     color: #fff;
